@@ -8,7 +8,7 @@
 - Node.js и npm должны быть установлены.
 1. Клонируйте репозиторий:
    ```sh
-   git clone <URL_вашего_репозитория>
+   git clone https://github.com/Kuuhakui/frontapp
    ```
 
 2. Перейдите в папку проекта:
