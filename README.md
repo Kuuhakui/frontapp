@@ -1,24 +1,54 @@
-# frontapp
+# Vue Expense Tracker
 
-## Project setup
-```
-npm install
-```
+Простой планировщик и трекер расходов, разработанный на Vue.js 3. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Установка и запуск проекта
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Требования
+- Node.js и npm должны быть установлены.
+1. Клонируйте репозиторий:
+   ```sh
+   git clone <URL_вашего_репозитория>
+   ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+2. Перейдите в папку проекта:
+   ```sh
+   cd имя_вашей_папки
+   ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3. Установите зависимости:
+   ```sh
+   npm install
+   ```
+
+4. Установите dayjs для работы с датами:
+   ```sh
+   npm install dayjs
+   ```
+5. Запустите локальный сервер разработки:
+   ```sh
+   npm run serve
+   ```
+
+6. Откройте браузер и перейдите по адресу:
+   ```
+   http://localhost:8080
+   ```
+
+## Структура проекта
+- `src/main.js` - основная точка входа в приложение.
+- `src/router/index.js` - маршрутизация приложения.
+- `src/views/` - содержит основные страницы, такие как HomePage и PlannerPage.
+- `src/components/` - содержит компоненты, такие как ExpenseChart и ExpenseList.
+
+## Функционал
+- Управление доходами и расходами.
+- Планирование расходов.
+- Фильтрация данных по дням, неделям, месяцам и годам.
+- Поиск по категориям.
+
+## Стили
+Проект использует базовые стили для удобства восприятия.
+
+## Лицензия
+Этот проект распространяется под лицензией MIT.
